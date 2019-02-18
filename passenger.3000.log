@@ -1,0 +1,28 @@
+2019/02/13 17:31:05 [emerg] 25302#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2019/02/13 17:31:05 [emerg] 25302#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2019/02/13 17:31:05 [emerg] 25302#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2019/02/13 17:31:05 [emerg] 25302#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2019/02/13 17:31:05 [emerg] 25302#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2019/02/13 17:31:05 [emerg] 25302#0: still could not bind()
+[ N 2019-02-13 17:33:11.8707 25394/T1 age/Wat/WatchdogMain.cpp:1366 ]: Starting Passenger watchdog...
+[ N 2019-02-13 17:33:11.8904 25397/T1 age/Cor/CoreMain.cpp:1339 ]: Starting Passenger core...
+[ N 2019-02-13 17:33:11.8905 25397/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2019-02-13 17:33:11.9003 25397/T1 age/Cor/CoreMain.cpp:1014 ]: Passenger core online, PID 25397
+App 25429 output: esta app corre en el puerto 3000
+App 25478 output: esta app corre en el puerto 3000
+[ N 2019-02-13 17:33:15.1103 25397/T6 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 25529 output: esta app corre en el puerto 3000
+
+[ N 2019-02-13 17:45:14.3025 25397/T7 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2019-02-13 17:45:14.3027 25397/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2019-02-13 17:45:14.3027 25397/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 25429, application /home/lab/miproyecto (development)
+[ N 2019-02-13 17:45:14.3027 25397/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 25478, application /home/lab/miproyecto (development)
+[ N 2019-02-13 17:45:14.3027 25397/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 25529, application /home/lab/miproyecto (development)
+[ N 2019-02-13 17:45:14.3028 25397/Ta Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2019-02-13 17:45:14.3028 25397/Ta Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2019-02-13 17:45:14.3029 25397/T7 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2019-02-13 17:45:14.3029 25397/T7 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2019-02-13 17:45:14.3031 25397/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 25429, application /home/lab/miproyecto (development)
+[ N 2019-02-13 17:45:14.3031 25397/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 25478, application /home/lab/miproyecto (development)
+[ N 2019-02-13 17:45:14.3031 25397/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 25529, application /home/lab/miproyecto (development)
+[ N 2019-02-13 17:45:15.2982 25397/T1 age/Cor/CoreMain.cpp:1324 ]: Passenger core shutdown finished

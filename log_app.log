@@ -1,0 +1,22 @@
+[ N 2019-02-13 17:49:10.7107 26166/T1 age/Wat/WatchdogMain.cpp:1366 ]: Starting Passenger watchdog...
+[ N 2019-02-13 17:49:10.7303 26169/T1 age/Cor/CoreMain.cpp:1339 ]: Starting Passenger core...
+[ N 2019-02-13 17:49:10.7304 26169/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2019-02-13 17:49:10.7353 26169/T1 age/Cor/CoreMain.cpp:1014 ]: Passenger core online, PID 26169
+App 26200 output: esta app corre en el puerto 3000
+App 26249 output: esta app corre en el puerto 3000
+App 26298 output: esta app corre en el puerto 3000
+[ N 2019-02-13 17:49:13.9306 26169/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2019-02-13 18:51:04.7129 26169/T7 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2019-02-13 18:51:04.7131 26169/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2019-02-13 18:51:04.7131 26169/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 26200, application /home/lab/miproyecto (development)
+[ N 2019-02-13 18:51:04.7132 26169/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 26249, application /home/lab/miproyecto (development)
+[ N 2019-02-13 18:51:04.7132 26169/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 26298, application /home/lab/miproyecto (development)
+[ N 2019-02-13 18:51:04.7133 26169/Tb Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2019-02-13 18:51:04.7133 26169/Tb Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2019-02-13 18:51:04.7134 26169/T7 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2019-02-13 18:51:04.7134 26169/T7 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2019-02-13 18:51:04.7139 26169/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 26200, application /home/lab/miproyecto (development)
+[ N 2019-02-13 18:51:04.7139 26169/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 26249, application /home/lab/miproyecto (development)
+[ N 2019-02-13 18:51:04.7139 26169/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 26298, application /home/lab/miproyecto (development)
+[ N 2019-02-13 18:51:05.7192 26169/T1 age/Cor/CoreMain.cpp:1324 ]: Passenger core shutdown finished
